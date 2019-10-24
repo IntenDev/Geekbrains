@@ -1,0 +1,20 @@
+h1 {
+    margin-left: 20px;
+}
+blockquote {
+    margin: 0;
+    width: 350px;
+    background: #FFF1DE;
+    color: #58554B;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+blockquote p {
+    margin-top: 0;
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+    margin-left: 20px;
+}
