@@ -22,9 +22,7 @@ function cases(a) {
         case '1':
             return "рубль";
         case '2':
-            return "рубля";
         case '3':
-            return "рубля";
         case '4':
             return "рубля";
         default:
