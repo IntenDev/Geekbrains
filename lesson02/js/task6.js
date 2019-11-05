@@ -18,7 +18,7 @@ function getLastCharacter(a){
  * @returns {string} возвращает результат
  */
 function cases(a) {
-    switch(getLastCharacter(a)){
+    /*switch(getLastCharacter(a)){
         case '1':
             return "рубль";
         case '2':
@@ -27,6 +27,15 @@ function cases(a) {
             return "рубля";
         default:
             return "рублей"
+    }*/
+    if(getLastCharacter(a) == 1 && deposit !== 11){
+        return "рубль";
+    } else if (getLastCharacter(a) == 2 || 3 || 4 ){
+        return "рубля";
+    } else if(getLastCharacter(a) >= 5 && deposit.length >= 1){
+        return "рублей";
+    }else {
+        return "рублей";
     }
 }
 alert("Ваша сумма в " + deposit + " " + cases(deposit) + " успешно зачислена");
