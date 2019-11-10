@@ -1,0 +1,39 @@
+.hidden {
+    display: none;
+}
+.wrapper {
+    width: 500px;
+    height: 180px;
+    border: 4px double black; /* Параметры границы */
+    padding: 10px; /* Поля вокруг текста */
+    margin-bottom: 10px;
+}
+img {
+    width: 150px;
+    padding: 10px;
+    float: left;
+}
+.description{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+p {
+    color: grey;
+}
+.products{
+    width: 550px;
+    height: 260px;
+    border: 1px dashed #58554B;
+    padding: 5px;
+    display: flex;
+
+}
+.product{
+    width: 170px;
+    height: 250px;
+    border: 1px #58554B solid;
+    margin-left: 5px;
+    padding: 1px;
+}
+
