@@ -1,7 +1,7 @@
 'use script';
 const SLIDE_WIDTH = 600;
 const SLIDES_NUM = 3;
-
+//Слайдер с прокруткой
 let slider = {
     container: null,
     frame: 0,
